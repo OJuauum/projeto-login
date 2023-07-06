@@ -33,13 +33,33 @@ section#login {
 
     background-color: white;
     width: 360px;
-    height: 500px;
+    height: 700px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.582);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #5f2c82 url(../imagens/free-photo-of-antigo-antepassados-anciao-arquitetura.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
 }
 
 section#login > div#formulario {
     display: block;
     padding: 10px;
 
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
